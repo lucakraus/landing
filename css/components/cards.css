@@ -1,0 +1,43 @@
+.cards {
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-family: Open Sans;
+  color: #332C39;
+
+}
+
+.card {
+  height: 350px;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card > h3 {
+  font-family: Open Sans;
+  color: #332C39;
+}
+
+
+
+.card > p {
+  font-family: Open Sans;
+  color: #332C39;
+  font-size: smaller;
+  margin: 0px;
+}
+
+
+
+.card__image {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  padding: 20px;
+}

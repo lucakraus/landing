@@ -1,0 +1,29 @@
+.banner {
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  align-items: center;
+  color: white;
+  font-size: x-large;
+  padding: 150px 0px;
+}
+
+.container{
+  margin: 0px auto;
+  max-width: 1200px;
+}
+
+.banner > p {
+  font-weight: bold;
+  margin: 20px;
+}
+
+.btn-banner {
+  padding: 16px;
+  border-color: black;
+  background-color: black;
+  color: white;
+  font-size: medium;
+  border-radius: 10px;
+  margin: 100px auto;
+}
